@@ -20,7 +20,7 @@ require 'nvim-treesitter.configs'.setup {
     },
     indent = {
         enable = true,
-         disable = { "c, cpp, javascript, typescript " },
+         disable = { "c, cpp, javascript, typescript" },
     },
     highlight = {
         enable = true,

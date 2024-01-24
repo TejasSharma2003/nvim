@@ -93,4 +93,7 @@ return require('packer').startup(function(use)
     -- use 'rcarriga/nvim-notify'
 
     use 'nvim-treesitter/nvim-treesitter-context'
+
+    -- collapsing the text 
+    use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
 end)
